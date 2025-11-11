@@ -1,108 +1,110 @@
 # -taller-proyecto-Timaure-Julieth
-## 📖 Tabla de Contenidos
-
-* [Acerca del Proyecto](#-acerca-del-proyecto)
-    * [El Problema](#el-problema)
-    * [La Solución](#la-solución)
-    * [Innovación y Enfoque](#innovación-y-enfoque)
-* [Características Principales](#-características-principales)
-* [Stack Tecnológico](#-stack-tecnológico)
-* [Metodología de Desarrollo](#-metodología-de-desarrollo)
-* [Puesta en Marcha (Ejemplo)](#-puesta-en-marcha-ejemplo)
-* [Licencia](#-licencia)
-* [Autora](#-autora)
-
-📍 Acerca del Proyecto
-El Problema
-El parque automotor en Chile ha experimentado un incremento sostenido , y la Región del Biobío es la tercera con mayor cantidad de vehículos en el país. En la ciudad de Concepción, esto ha generado una demanda de estacionamientos que supera con creces la oferta fácilmente accesible.
+📌 AparcaConce
 
 
-
-Actualmente, tanto conductores (profesionales, estudiantes, residentes) como propietarios de espacios se enfrentan a un proceso de búsqueda y arriendo ineficiente , basado en métodos como carteles físicos o publicaciones en redes sociales que a menudo carecen de información concreta. Esto resulta en una pérdida de tiempo y en métodos de verificación poco fiables.
-
+Sistema Web Centralizado para la Gestión de Arriendos de Estacionamientos en Concepción — Proyecto de Especialidad
 
 
-La Solución
+AparcaConce es un sistema web diseñado para centralizar la oferta y demanda de estacionamientos fijos en la ciudad de Concepción, mejorando la eficiencia de búsqueda para conductores y aumentando las oportunidades de arriendo para propietarios.
+El proyecto surge debido al incremento sostenido del parque automotriz en Chile, especialmente en la Región del Biobío, donde la necesidad de estacionamientos supera la oferta disponible.
 
-APARCACONCE nace como una propuesta tecnológica para centralizar esta demanda. Es un sistema web diseñado para optimizar el proceso de arriendo de estacionamientos fijos y a largo plazo en la comuna de Concepción.
+📖 Índice
 
+🌟 Descripción General
 
-El objetivo es mejorar la eficiencia en la búsqueda para los conductores y, al mismo tiempo, ofrecer un canal de mayor alcance y oportunidad económica para los propietarios de espacios, todo dentro de un entorno seguro para la transacción.
+🚗 Problemática
 
-Innovación y Enfoque
-La principal innovación del proyecto es de carácter funcional. A diferencia de otras plataformas, APARCACONCE se enfoca en:
+🎯 Objetivo General
 
+📌 Objetivos Específicos
 
-Información Completa: Mediante filtros estructurados y campos de información obligatorios, el sistema asegura que el 100% de las publicaciones cuenten con todos los datos necesarios para que el conductor tome una decisión (ubicación, dimensiones, seguridad, etc.), reduciendo el tiempo perdido en preguntas y respuestas.
+💡 Innovación del Proyecto
 
+🏗️ Arquitectura y Tecnologías
 
-Contacto Directo: Facilita la comunicación directa entre el arrendatario y el conductor, eliminando intermediarios que demoran el proceso.
+📚 Metodología de Desarrollo
 
+📝 Historias de Usuario
 
-Estilo "Bazar": El proyecto se desarrolla bajo un enfoque "Bazar" , priorizando la entrega rápida de un Producto Mínimo Viable (MVP) con las funcionalidades esenciales para solucionar el problema real del usuario. Su evolución futura depende de la retroalimentación constante de la comunidad.
+⚙️ Requerimientos Funcionales
 
+🔒 Requerimientos No Funcionales
 
+📦 Instalación y Ejecución
 
-✨ Características Principales
-Gestión de Usuarios
+🧪 Pruebas
 
-Registro: Permite registrar nuevos usuarios con datos personales obligatorios.
+📸 Capturas (opcional)
 
+📄 Licencia MIT
 
-Seguridad: La contraseña debe tener 12 caracteres, incluyendo mayúscula, minúscula y números.
+👩‍💻 Autora
 
+<br><br>
 
-Autenticación: Ingreso a la plataforma con correo y contraseña y opción de cerrar sesión de forma segura.
+🌟 Descripción General
 
+AparcaConce es un proyecto web desarrollado como solución a la creciente necesidad de encontrar estacionamientos fijos y seguros en la ciudad de Concepción. Centraliza publicaciones, reduce el tiempo de búsqueda, garantiza información completa y permite la comunicación directa entre arrendador y conductor.
 
+Este repositorio contiene la documentación, análisis, arquitectura, modelo de datos y base del desarrollo del sistema.
 
-Perfil: Los usuarios pueden editar sus datos personales y registrar sus vehículos (patente, marca, tamaño) para facilitar los contratos.
+<br><br>
 
+🚗 Problemática
 
-Gestión de Publicaciones (Para Arrendadores)
+El aumento del parque automotor en Chile —superando los 6.5 millones de permisos en 2023— ha generado una alta demanda de estacionamientos, especialmente en Concepción, donde la oferta es limitada y dispersa.
 
-Creación: Permite crear publicaciones de estacionamientos con datos obligatorios como título, descripción, valor , ubicación, dimensiones y seguridad.
+Actualmente, tanto conductores (profesionales, estudiantes, residentes) como propietarios de espacios se enfrentan a un proceso de búsqueda y arriendo ineficiente , basado en métodos como carteles físicos o publicaciones en redes sociales que a menudo carecen de información concreta. Esto resulta en una pérdida de tiempo y en métodos de verificación poco fiables. AparcaConce surge para resolver estas ineficiencias.
 
+<br><br>
 
+🎯 Objetivo General
 
+Implementar un sistema web diseñado para optimizar el proceso de arriendo de estacionamientos fijos y a largo plazo en la comuna de Concepción.El objetivo de APARCACONCE es mejorar la eficiencia en la búsqueda para los conductores y, al mismo tiempo, ofrecer un canal de mayor alcance y oportunidad económica para los propietarios de espacios, todo dentro de un entorno seguro para la transacción.
 
-Multimedia: Se pueden subir hasta 6 imágenes del espacio.
-
-
-Administración: Los arrendadores pueden editar o pausar sus publicaciones y ver un panel con todas sus publicaciones y su estado.
-
-
-Búsqueda y Arriendo (Para Conductores)
-
-Visualización: Página de inicio con todas las publicaciones disponibles, mostrando título y precio.
-
-
-Filtros Avanzados: Búsqueda por ubicación, precio, características de seguridad y tipo de cobertura del espacio.
-
-
-Detalle: Vista detallada de cada publicación.
-
-
-Comunicación: Sistema de mensajería interna para que el conductor pueda contactar al arrendador directamente en la plataforma.
-
-🛠️ Stack Tecnológico
-Las tecnologías seleccionadas para este proyecto permiten una alta productividad y reutilización de código, alineándose con la filosofía Open Source y "Bazar" del proyecto.
+<br><br>
 
 
-Backend: C# y .NET 
+📌 Objetivos Específicos
 
+Analizar requerimientos funcionales y no funcionales del sistema.
 
+Diseñar la base de datos en SQL Server basada en un modelo relacional.
 
+Desarrollar el backend con C# y .NET, implementando la lógica de negocio y API.
 
-Frontend: Blazor 
+Crear el frontend con Blazor, integrando módulos de autenticación, publicaciones, filtros y mensajería.
 
+Implementar un plan de pruebas que valide el flujo completo del sistema.
 
+<br><br>
 
+💡 Innovación del Proyecto
 
-Base de Datos: SQL Server 
+AparcaConce ofrece un enfoque innovador basado en:
 
+✔ Filtros estructurados obligatorios, garantizando que todas las publicaciones tengan información completa.
 
-🗺️ Metodología de Desarrollo
+✔ Contacto directo dentro de la aplicación, sin intermediarios.
+
+✔ Sistema tipo Bazar, entregando funcionalidades mínimas rápidamente y evolucionando mediante retroalimentación.
+
+✔ Publicado bajo Licencia MIT, permitiendo libre aprendizaje y colaboración.
+
+<br><br>
+
+🏗️ Arquitectura y Tecnologías
+Capa	Tecnología
+Frontend	Blazor WebAssembly
+Backend	C# y .NET
+Base de Datos	SQL Server
+Estilo de Desarrollo	Bazar + Open Source
+Seguridad	HTTPS, contraseñas cifradas
+
+<br><br>
+
+📚 Metodología de Desarrollo
+
 El proyecto combina dos enfoques ágiles para la entrega de valor:
 
 
@@ -111,13 +113,87 @@ Filosofía: Lean Development, centrada en entregar valor masificado al cliente y
 
 Método: Kanban, utilizado para gestionar el flujo de trabajo, priorizar las tareas que aportan mayor valor y entregar con rapidez el MVP.
 
-🚀 Puesta en Marcha 
+<br><br>
+
+📝 Historias de Usuario
+
+Incluye historias como:
+
+Registro de nuevos usuarios
+
+Inicio de sesión
+
+Publicación de estacionamientos
+
+Edición de publicaciones
+
+Listado y filtro de ofertas
+
+Mensajería interna
+
+Registro de vehículo
+
+Edición de datos personales
+
+(Incluye tabla completa en tu documento original.)
+
+<br><br>
+
+⚙️ Requerimientos Funcionales
+
+Ejemplos:
+
+RF-01: Registrar nuevos usuarios
+
+RF-01.2: Inicio de sesión con correo y contraseña
+
+RF-02: Crear estacionamientos y publicaciones
+
+RF-02.2: Subir hasta 6 imágenes
+
+RF-03: Filtros de búsqueda
+
+RF-03.3: Mensajería interna entre conductor y arrendador
+
+(Lista completa incluida en el documento.)
+
+<br><br>
+
+🔒 Requerimientos No Funcionales
+
+RNF-01: Contraseñas cifradas
+
+RNF-02: Comunicación segura vía HTTPS
+
+RNF-03: Búsquedas con filtros en menos de 3 segundos
+
+RNF-04: Interfaz intuitiva
+
+RNF-05: Sitio responsivo compatible con Chrome, Firefox, Safari y Edge
+
+<br><br>
+
+📦 Instalación y Ejecución
 
 
-📄 Licencia
-Este proyecto se realiza bajo la Licencia MIT.
+<br><br>
 
-El propósito principal es fomentar el aprendizaje a partir del código libre, requiriendo únicamente dar aviso de auditoría sin imponer restricciones a futuros usuarios o colaboradores.
+🧪 Pruebas
+
+El proyecto incluye pruebas de:
+
+
+
+📄 Licencia MIT
+
+Este proyecto se distribuye bajo la Licencia MIT.
+
+👩‍💻 Autora
+
+Julieth A. Timaure Chirinos
+Proyecto de Especialidad — 2025
+Instituto Profesional
+Docente: Víctor Valderrama M.
 
 🧑‍💻 Autora
 
@@ -125,4 +201,3 @@ Julieth A. Timaure Chirinos
 
 
 Proyecto de especialidad para AIEP.
-
